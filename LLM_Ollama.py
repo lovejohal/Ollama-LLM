@@ -36,7 +36,7 @@ def query():
 def test():
     
     try:
-        print("klhjkh")
+        
         return jsonify({'response': "nmdfgb"})
     except Exception as e:
         return jsonify({'error': str(e)}), 500
